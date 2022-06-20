@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  jrtb-db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'dev_buysell_db'
+      MYSQL_USER: 'dev_buysell_db_username'
+      MYSQL_PASSWORD: 'dev_buysell_db_password'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    command: --character-set-server=utf8 --collation-server=utf8_general_ci
