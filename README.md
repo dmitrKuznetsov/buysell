@@ -1,10 +1,8 @@
 #BUYSELL
-Clone Avito.
-
-Web Application:
+Clone Avito. Web Application:
 * Delimitation of roles.
 * User create products, added image for them
-* User can log in/registration
+* User can log in / registration
 * Admin also has ability to ban users and edit their information
 
 # Local development
