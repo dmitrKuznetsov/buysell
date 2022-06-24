@@ -8,7 +8,6 @@ Clone Avito. Web Application:
 # Local development
 For starting database, use docker-compose-mysql.yml. Run command:
 ```bash
-# Run mySql
 docker-compose -f docker-compose-mysql.yml -p buysell-mysql up -d    
 ```
 
